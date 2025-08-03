@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Festival Sepela 2024
 
-## Getting Started
+Site vitrine officiel du Festival Sepela, organisé par la jeunesse de l'église missionnaire Temps de la Moisson.
 
-First, run the development server:
+## 📅 Informations de l'événement
 
+- **Dates** : 30-31 Août 2024
+- **Jour 1** : 30 Août, 9h00 - 18h00
+- **Jour 2** : 31 Août, 14h00 - 18h00
+- **Organisateur** : Jeunesse de l'église missionnaire Temps de la Moisson
+
+## 🚀 Technologies utilisées
+
+- **Framework** : Next.js 15.4.5
+- **Langage** : TypeScript
+- **Styling** : Tailwind CSS
+- **Composants UI** : shadcn/ui
+- **Animations** : Framer Motion
+- **Icônes** : Lucide React
+- **Gestionnaire de paquets** : pnpm
+
+## 🎯 Fonctionnalités
+
+### ✨ Animations avancées
+- Animations d'entrée fluides avec Framer Motion
+- Particules animées en arrière-plan
+- Transitions et hover effects sophistiqués
+- Animations de scroll révélant le contenu
+
+### 📱 Design responsive
+- Interface adaptée à tous les écrans
+- Navigation mobile optimisée
+- Grille responsive pour tous les composants
+
+### 🎵 Sections complètes
+- **Accueil** : Hero section avec call-to-action
+- **À propos** : Présentation du festival
+- **Programme** : Activités détaillées (jeux vidéo, concerts, etc.)
+- **Artistes** : Cards avec photos et descriptions
+- **Stands** : Réservation à 70$ pour 2 jours
+- **Produits** : Merchandising du festival
+- **Footer** : Informations de contact
+
+## 🛠️ Installation et développement
+
+1. **Cloner le projet**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd sepela
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Installer les dépendances**
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Lancer le serveur de développement**
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Ouvrir le navigateur**
+Allez sur [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## 📦 Scripts disponibles
 
-To learn more about Next.js, take a look at the following resources:
+- `pnpm dev` - Lance le serveur de développement
+- `pnpm build` - Compile l'application pour la production
+- `pnpm start` - Lance l'application en mode production
+- `pnpm lint` - Vérifie le code avec ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Structure du projet
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── page.tsx          # Page principale
+│   ├── layout.tsx        # Layout global
+│   └── globals.css       # Styles globaux
+├── components/
+│   ├── Navigation.tsx    # Navigation responsive
+│   ├── ArtistCard.tsx    # Carte d'artiste
+│   ├── ActivityCard.tsx  # Carte d'activité
+│   └── ParticleBackground.tsx # Arrière-plan animé
+└── components/ui/        # Composants shadcn/ui
+```
 
-## Deploy on Vercel
+## 🎪 Sections du festival
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Programme & Activités
+- **Tournoi de Jeux Vidéo** : FIFA, Call of Duty et plus
+- **Concerts** : Performances d'artistes gospel et hip-hop chrétien
+- **Concours de Talents** : Chant, danse, poésie
+- **Ateliers Créatifs** : Pour toute la famille
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Stands
+- **Prix** : 70$ pour les 2 jours
+- **Inclus** : Table, chaises, électricité
+- **Contact** : 0977206687
+
+### Produits
+- T-shirts officiels (25$)
+- Casquettes (15$)
+- Bracelets souvenirs (10$)
+- Posters officiels (8$)
+
+## 📞 Contact
+
+- **Téléphone** : 0977206687
+- **Email** : contact@sepela.org
+- **Organisation** : Église Missionnaire Temps de la Moisson
+
+## 🤝 Contribution
+
+Pour contribuer au projet :
+1. Fork le repository
+2. Créez une branche pour votre feature
+3. Committez vos changements
+4. Poussez vers la branche
+5. Ouvrez une Pull Request
+
+## 📄 Licence
+
+© 2024 Festival Sepela. Tous droits réservés. Organisé avec ❤️ par la jeunesse EMTM.
+
+---
+
+*Que ce festival soit une bénédiction pour tous ceux qui y participent !* 🙏
